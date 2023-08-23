@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+
+}
+:root{
+    --h1-font:6rem
+    --h2-font:3rem;
+    --p-font:1rem;
+}
+body{
+    
+    background-color: black;
+    
+}
+header{
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 99;
+   width: 100%;
+   display: flex;
+   padding: 27px 10%;
+   justify-content: space-between;
+   text-align: center;
+   background: transparent;
+   
+}
+.navbar{
+    display: flex;
+    margin: auto;
+
+}
+.logo{
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+   
+   
+}
+span{
+    color: yellow ;
+}
+.navbar  a{
+    
+    margin: 15px  15px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+    
+}
+
+
+
+.navbar li a:hover{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.social_menu{
+
+    font-size: 30px;
+    
+}
+.social_menu a {
+    margin: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+.social_menu a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    margin-left:130px;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.hero_banner{
+    color: white;
+    padding: 20px;
+}
+.hero_banner span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+    color: yellow;
+}
+.hero_banner h5{
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+.hero_banner p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.hero_banner a {
+    
+    background-color: orange;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    transition: 0.5s all ease-in-out;
+
+}
+.hero_banner a:hover{
+    background:linear-gradient(40deg , orange 40%, blueviolet 60% );
+}
