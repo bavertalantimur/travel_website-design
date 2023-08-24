@@ -1,0 +1,109 @@
+@media screen and ( max-width: 1200px){
+   header{
+    padding: 20px ;
+    
+   
+   }
+   .social_menu{
+    display: flex;
+    padding: 5px;
+   }
+   .feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+   }
+   .holiday-text{
+    margin-top: 0px;
+   }
+   .holiday-text h5{
+    font-size: 18px;
+    font-weight: 300;
+    
+    margin-bottom: 10px;
+}
+   .holiday-text h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: yellow;
+    
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+.holiday-img img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding-left: 30%;
+}
+.tour-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tour-img img{
+    width: 50%;
+    height: auto;
+    
+}
+.tour-img h6 {
+   
+    left: 28%;
+    bottom: 15%;
+}
+.tour-img h4 {
+   
+    left: 28%;
+    bottom: 10%;
+}
+#tour{
+padding-bottom: 15%;
+}
+#tour a{
+    left: 30%;
+    bottom: 2%;
+}
+.culture-text h5{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+   
+   
+    margin-bottom: 10px;
+}
+.culture-text h2{
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.culture-text p{
+    font-size: 1rem;
+    font-weight: 50;
+    line-height: 20px;
+   
+}
+input[type="email"]{
+    width: 200px;
+
+}
+.news_letter-text p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.news_letter-text h2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    
+
+}
+.news_letter-text{
+    padding-top: 2%;
+}
+}

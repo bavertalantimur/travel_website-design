@@ -86,7 +86,7 @@ span{
 }
 
 #hero{
-    margin-left:130px;
+    padding:130px;
 
     height: 100vh;
     width: 100%;
