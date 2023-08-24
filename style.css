@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 
 }
 :root{
@@ -124,4 +125,213 @@ span{
 }
 .hero_banner a:hover{
     background:linear-gradient(40deg , orange 40%, blueviolet 60% );
+}
+.feature-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16rem;
+}
+.row-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.5s all ease-in;
+}
+.row-img img:hover{
+    transform: scale(1.2);
+}
+.row-img h4{
+    color: white;
+    margin-top: 5px;
+    margin-left:20px;
+}
+#holiday{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10%;
+}
+.holiday-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding-left: 30%;
+}
+
+.holiday-text{
+    margin-top: 50px;
+   padding: 50px;
+}
+.holiday-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: yellow;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.holiday-text h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.holiday-text p{
+    font-size: 1rem;
+    color:white;
+    line-height: 30px;
+
+}
+.tour-title{
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+}
+.tour-img img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(60%);
+    transition: 0.5s all;
+}
+.tour-img img:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+    transform: scale(1.04);
+}
+.tour-content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 6%;
+    
+}
+#tour{
+    position: relative;
+}
+
+#tour a{
+    position: absolute;
+   left: 9%;
+    bottom: 6%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 2px;
+    color: white; 
+    
+}
+.tour-img{
+    position: relative;
+}
+.tour-img h6 {
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 180px;
+    line-height: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.tour-img h4 {
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+#culture{
+    display: flex;
+    gap: 8%;
+}
+.culture-text{
+    padding: 5%;
+    
+}
+.culture-img img{
+    margin-top: 10%;
+    height: 80%;
+    width: 85%;
+    border-radius: 10%;
+    
+}
+.culture-text h5{
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: yellow;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.culture-text h2{
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.culture-text p{
+    font-size: 2rem;
+    font-weight: 50;
+    line-height: 30px;
+   
+}
+.culture-btn{
+    margin-top: 20px;
+}
+#culture a{
+   
+    background-color: orange;
+    padding: 10px;
+    border-radius: 2px;
+    color: white; 
+    
+}
+.news_letter-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.news_letter-text{
+    padding-left: 5%;
+}
+.news_letter-text h2{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 5px;
+    letter-spacing: 5px;
+
+}
+.news_letter-text p{
+    font-size: 25px;
+    font-weight: 300;
+}
+form{
+    padding-right: 5%;
+}
+form{
+    margin-top: 10px;
+    
+}
+input[type="email"]{
+    width: 450px;
+   display: inline-block;
+    font-size: 1rem;
+    padding: 15px;
+    background: #202020;
+    border-radius: 5px;
+
+}
+input[type="submit"]{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+    width: 200px;
 }
